@@ -1,0 +1,35 @@
+<div class="container" id="speakerDetail">
+  <div class="row">
+    <div class="col-sm-8">
+      <article class="speakerslist ">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-8 ">
+              <h3 class="speakerslist-title">{{title}}</h3>
+              <h5 class="speakerslist-name">with
+                <a href="./{{ shortname }}.html">{{ name }}</a>
+              </h5>
+              <p class="speakerslist-info">
+                <a href="./{{ shortname }}.html">
+                </a>
+                <img class="speakerslist-img img-responsive pull-left" src="/images/speakers/{{ shortname }}.jpg"
+                  alt="Photo of {{ name }}">
+                </a>
+                </a>
+                {{{ description }}}
+              </p>
+            </div>
+          </div>
+          <!-- row -->
+        </div>
+        <!-- container -->
+      </article>
+    </div>
+    <!-- primary -->
+    <aside class="col-sm-4">
+      {{> artwork }}
+    </aside>
+    <!-- secondary -->
+  </div>
+</div>
+<!-- container -->

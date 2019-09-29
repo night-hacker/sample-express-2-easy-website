@@ -1,0 +1,24 @@
+<article class="speakerslist jumbotron hidden-xs">
+  <div class="container">
+    <div class="row">
+      {{#each speakerslist }}
+      <div class="col-sm-4 text-center">
+        <h3 class="speakerslist-title">{{ this.title }}</h3>
+        <h5 class="speakerslist-name">with
+          <a href="/speakers/{{ this.shortname }}">{{ this.name }}</a>
+        </h5>
+        <p class="speakerslist-info">
+          <a href="/speakers/{{ this.shortname }}">
+            <img class="speakerslist-img img-circle" src="/images/speakers/{{ this.shortname }}_tn.jpg"
+              alt="Photo of {{ this.name }}">
+          </a>
+          </a>
+          </a>
+        </p>
+      </div>
+      {{/each }}
+    </div>
+    <!-- row -->
+  </div>
+  <!-- container -->
+</article>

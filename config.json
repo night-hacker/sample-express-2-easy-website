@@ -1,0 +1,16 @@
+{  "development": {
+    "title": "Roux Meetups [NODE DEVELOPMENT MODE]",
+    "data": {
+      "speakers": "./data/speakers.json",
+      "feedback": "./data/feedback.json"
+    }
+  },
+  "production": {
+    "title":"Roux Meetups",
+    "data": {
+      "speakers": "./data/speakers.json",
+      "feedback": "./data/feedback.json"
+    }
+  }
+}
+  
